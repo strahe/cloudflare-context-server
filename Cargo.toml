@@ -1,0 +1,12 @@
+[package]
+name = "zed-cloudflare-context-server"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.2.0"
+serde = "1.0"

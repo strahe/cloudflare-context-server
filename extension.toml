@@ -1,0 +1,10 @@
+id = "cloudfare-context-server"
+name = "Cloudfare Context Server"
+description = "Model Context Server for Cloudfare"
+version = "0.0.1"
+schema_version = 1
+authors = ["Lee <octalgah@gmail.com>"]
+repository = "https://github.com/strahe/cloudflare-context-server"
+
+[context_servers.cloudfare-context-server]
+name = "Cloudfare Context Server"
